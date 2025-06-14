@@ -2,6 +2,9 @@
 const date = new Date();
 </script>
 
-<template>{{ date.toString() }}</template>
+<template>
+  <div>ДЗ-1</div>
+  {{ date.toString() }}
+</template>
 
 <style scoped></style>
