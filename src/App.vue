@@ -1,7 +1,9 @@
-<script setup>
-const date = new Date();
-</script>
+<!-- <template>{{ date.toString() }}</template> -->
+<template><Button /></template>
 
-<template>{{ date.toString() }}</template>
+<script setup>
+// const date = new Date();
+import Button from "./components/Button.vue";
+</script>
 
 <style scoped></style>
