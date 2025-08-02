@@ -6,7 +6,7 @@
       <Button type="main" />
       <div class="card-section">
         <Card type="front" number="01" name="dust-coat" />
-        <Card type="fliped" number="02" name="караван верблюдов" />
+        <Card type="fliped" number="02" name="караван верблюдов!" />
       </div>
     </section>
   </main>
