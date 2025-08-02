@@ -2,7 +2,7 @@
   <header class="header">
     <p class="header__title">Запомни слово</p>
     <div class="header__like">
-      <span class="header__like__count">{{ likes }}</span>
+      <Score :count="likes" />
       <Button type="like" @addLike="addLike"><HeartIcon /></Button>
     </div>
   </header>
@@ -10,8 +10,8 @@
 <script setup>
 import { ref } from "vue";
 import HeartIcon from "../icons/HeartIcon.vue";
-
 import Button from "./Button.vue";
+import Score from "./Score.vue";
 
 let likes = ref(100);
 
